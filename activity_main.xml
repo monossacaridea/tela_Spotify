@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:text="Music"
             android:textColor="#ffffff"
-            android:textSize="45sp"
+            android:textSize="35sp"
+            android:textStyle="bold"
             android:layout_marginEnd="30dp"/>
 
         <TextView
@@ -28,8 +29,8 @@
             android:layout_height="wrap_content"
             android:text="Podcasts"
             android:textColor="#888888"
-            android:textSize="45sp"
-            />
+            android:textSize="35sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
@@ -39,27 +40,29 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:orientation="horizontal"
-        android:gravity="left"
+        android:gravity="center_vertical"
         android:paddingLeft="16dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginEnd="40dp">
+            android:gravity="center_horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Playlists"
                 android:textColor="#FFFFFF"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginVertical="8dp"/>
 
-            <View
-                android:layout_width="95dp"
+            <ImageView
+                android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#1db954"/>
+                android:src="@drawable/verde"
+                android:scaleType="fitXY"/>
 
         </LinearLayout>
 
@@ -68,15 +71,17 @@
             android:layout_height="wrap_content"
             android:text="Artists"
             android:textColor="#888888"
-            android:textSize="25sp"
-            android:layout_marginEnd="40dp"
+            android:textSize="20sp"
+            android:layout_marginStart="35dp"
             android:textStyle="bold"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Albums"
             android:textColor="#888888"
-            android:textSize="25sp"
+            android:textSize="20sp"
+            android:layout_marginStart="35dp"
             android:textStyle="bold"/>
 
     </LinearLayout>
@@ -101,7 +106,7 @@
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
             android:text="Create playlist"
-            android:textSize="23sp"
+            android:textSize="20sp"
             android:textStyle="bold"/>
     </LinearLayout>
 
@@ -130,7 +135,7 @@
                 android:layout_height="wrap_content"
                 android:text="Liked Songs"
                 android:textColor="#ffffff"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -138,8 +143,8 @@
                 android:layout_height="wrap_content"
                 android:text="6 songs"
                 android:textColor="#888888"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textSize="16sp"
+                />
         </LinearLayout>
 
     </LinearLayout>
@@ -169,7 +174,7 @@
                 android:layout_height="wrap_content"
                 android:text="Feelin' Good"
                 android:textColor="#ffffff"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -177,8 +182,7 @@
                 android:layout_height="wrap_content"
                 android:text="by Spotify"
                 android:textColor="#888888"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textSize="16sp"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -208,7 +212,7 @@
                 android:layout_height="wrap_content"
                 android:text="Good Vibes"
                 android:textColor="#ffffff"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -216,8 +220,7 @@
                 android:layout_height="wrap_content"
                 android:text="by Spotify"
                 android:textColor="#888888"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textSize="16sp"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -247,7 +250,7 @@
                 android:layout_height="wrap_content"
                 android:text="Confidence Boost"
                 android:textColor="#ffffff"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -255,8 +258,7 @@
                 android:layout_height="wrap_content"
                 android:text="by Spotify"
                 android:textColor="#888888"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textSize="16sp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -286,7 +288,7 @@
                 android:layout_height="wrap_content"
                 android:text="All The Feels"
                 android:textColor="#ffffff"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -294,8 +296,7 @@
                 android:layout_height="wrap_content"
                 android:text="by Spotify"
                 android:textColor="#888888"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textSize="16sp"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -325,7 +326,7 @@
                 android:layout_height="wrap_content"
                 android:text="Mood Booster"
                 android:textColor="#ffffff"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -333,8 +334,7 @@
                 android:layout_height="wrap_content"
                 android:text="by Spotify"
                 android:textColor="#888888"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textSize="16sp"/>
         </LinearLayout>
 
     </LinearLayout>
