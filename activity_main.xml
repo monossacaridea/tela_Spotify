@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000">
 
-    //Music e Podcasts
+    <!--Music e Podcasts-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,14 +33,14 @@
 
     </LinearLayout>
 
-    //Playlists, Artists e Albums
+    <!--Playlists, Artists e Albums-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:orientation="horizontal"
         android:gravity="left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -57,7 +58,7 @@
 
             <View
                 android:layout_width="95dp"
-                android:layout_height="5dp"
+                android:layout_height="3dp"
                 android:background="#1db954"/>
 
         </LinearLayout>
@@ -80,20 +81,20 @@
 
     </LinearLayout>
 
-    //Create playlist
+    <!--Create playlist-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         android:gravity="center|left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/criar_playlist"
-            android:layout_marginEnd="16dp" />
+            android:layout_marginEnd="16dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -104,18 +105,18 @@
             android:textStyle="bold"/>
     </LinearLayout>
 
-    //Liked songs
+    <!--Liked songs-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         android:gravity="center|left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/likedsongs"
             android:layout_marginEnd="16dp"/>
 
@@ -143,18 +144,18 @@
 
     </LinearLayout>
 
-    //Playlist 1
+    <!--Playlist 1-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         android:gravity="center|left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/bmo"
             android:layout_marginEnd="16dp"/>
 
@@ -182,18 +183,18 @@
 
     </LinearLayout>
 
-    //Playlist 2
+    <!--Playlist 2-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         android:gravity="center|left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/catra"
             android:layout_marginEnd="16dp"/>
 
@@ -221,18 +222,18 @@
 
     </LinearLayout>
 
-    //Playlist 3
+    <!--Playlist 3-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         android:gravity="center|left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/ellie"
             android:layout_marginEnd="16dp"/>
 
@@ -260,18 +261,18 @@
 
     </LinearLayout>
 
-    //Playlist 4
+    <!--Playlist 4-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         android:gravity="center|left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/cachorro"
             android:layout_marginEnd="16dp"/>
 
@@ -299,18 +300,18 @@
 
     </LinearLayout>
 
-    //Playlist 5
+    <!--Playlist 5-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         android:gravity="center|left"
-        android:padding="16dp">
+        android:paddingLeft="16dp">
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/leao"
             android:layout_marginEnd="16dp"/>
 
